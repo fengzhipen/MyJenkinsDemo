@@ -1,2 +1,2 @@
 # MyJenkinsDemo
-自动化部署demo
+基于Jenkins和Docker的自动化部署demo
