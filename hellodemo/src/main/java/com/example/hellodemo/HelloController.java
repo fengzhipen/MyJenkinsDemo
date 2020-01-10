@@ -16,4 +16,9 @@ public class HelloController {
     public String getMsg(){
         return "第一个msg";
     }
+
+    @RequestMapping("/getJenkins")
+    public String getName(){
+        return "hello Jenkins!!!";
+    }
 }
