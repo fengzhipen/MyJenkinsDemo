@@ -21,4 +21,9 @@ public class HelloController {
     public String getName(){
         return "hello Jenkins!!!";
     }
+
+    @RequestMapping("/getMsg1")
+    public String getMsg1(){
+        return "测试msg";
+    }
 }
